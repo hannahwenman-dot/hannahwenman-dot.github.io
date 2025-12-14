@@ -156,6 +156,34 @@ section {
         font-size: 1rem;
     }
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+form button {
+    padding: 12px;
+    background: #1f3c88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #162d63;
+}
 
 
 
