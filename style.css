@@ -10,7 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: #1f3c88;
+    background: #0f172a;
     color: white;
 }
 
@@ -89,5 +89,6 @@ section {
 .cv-button:hover {
     background: #162d63;
 }
+
 
 
