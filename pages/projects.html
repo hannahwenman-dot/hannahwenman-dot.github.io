@@ -12,6 +12,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../style.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -28,22 +31,22 @@
 
     <!-- Projects Section -->
     <section>
-        <h2>My Projects</h2>
+        <h2 data-aos="fade-up">My Projects</h2>
         <div class="projects">
 
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
                 <img src="../assets/images/motor.jpg" alt="Motor Project" class="project-img">
                 <h3>Motor Fault Diagnosis</h3>
                 <p>Disassembled and repaired electric motors, identifying worn components and testing continuity.</p>
             </div>
 
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
                 <img src="../assets/images/electronics.jpg" alt="Electronics Project" class="project-img">
                 <h3>Electronics GCSE Practical</h3>
                 <p>Designed and built an electronic system as part of GCSE coursework, achieving 87% on practical work.</p>
             </div>
 
-            <div class="project-card" data-aos="fade-up">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
                 <img src="../assets/images/lego.jpg" alt="LEGO F1 Project" class="project-img">
                 <h3>LEGO McLaren F1 Build</h3>
                 <p>Built a detailed LEGO McLaren F1 model with working engine components, showcasing mechanical understanding.</p>
@@ -52,6 +55,12 @@
         </div>
     </section>
 
+    <!-- Scripts -->
     <script src="../script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 800, once: true });
+    </script>
 </body>
+</html>
 </html>
