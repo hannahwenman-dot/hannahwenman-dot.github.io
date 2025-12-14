@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Hannah Wenman</title>
-    <link rel="stylesheet" href="../style.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
+    <!-- Navigation -->
     <nav>
-        <h1 class="logo">Hannah Wenman</h1>
+        <div class="logo">Hannah Wenman</div>
         <ul>
-            <button id="theme-toggle">🌙</button>
             <li><a href="../index.html">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <button id="theme-toggle">🌙</button>
     </nav>
 
+    <!-- Projects Section -->
     <section>
+        <h2>My Projects</h2>
         <div class="projects">
-    <div class="project-card">
-        <h3>Website Building</h3>
-        <p>
-            Built a website using coding and patience.
-        </p>
-    </div>
-    <div class="project-card">
-        <h3>Motor Fault Diagnosis</h3>
-        <p>
-            Disassembled and diagnosed faults in electric motors,
-            identifying worn components and testing continuity.
-        </p>
-    </div>
-    <div class="project-card">
-        <h3>Electronics GCSE Practical</h3>
-        <p>
-            Designed and built an electronic system as part of GCSE coursework,
-            achieving 87% on the practical element.
-        </p>
-    </div>
-    <div class="project-card">
-        <h3>LEGO McLaren F1 Engine Build</h3>
-        <p>
-            Built a detailed LEGO McLaren F1 model with working engine components,
-            demonstrating mechanical understanding.
-        </p>
-    </div>
-</div>
+
+            <div class="project-card" data-aos="fade-up">
+                <img src="../assets/images/motor.jpg" alt="Motor Project" class="project-img">
+                <h3>Motor Fault Diagnosis</h3>
+                <p>Disassembled and repaired electric motors, identifying worn components and testing continuity.</p>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <img src="../assets/images/electronics.jpg" alt="Electronics Project" class="project-img">
+                <h3>Electronics GCSE Practical</h3>
+                <p>Designed and built an electronic system as part of GCSE coursework, achieving 87% on practical work.</p>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <img src="../assets/images/lego.jpg" alt="LEGO F1 Project" class="project-img">
+                <h3>LEGO McLaren F1 Build</h3>
+                <p>Built a detailed LEGO McLaren F1 model with working engine components, showcasing mechanical understanding.</p>
+            </div>
+
+        </div>
     </section>
-<script src="../script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+
+    <script src="../script.js"></script>
 </body>
 </html>
