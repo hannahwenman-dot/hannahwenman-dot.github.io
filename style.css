@@ -89,6 +89,28 @@ section {
 .cv-button:hover {
     background: #162d63;
 }
+#theme-toggle {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark {
+    background: #0b1020;
+    color: #e5e7eb;
+}
+
+.dark nav {
+    background: #020617;
+}
+
+.dark section,
+.dark .project-card {
+    background: #020617;
+}
 
 
 
