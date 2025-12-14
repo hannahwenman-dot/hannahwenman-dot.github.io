@@ -42,8 +42,8 @@ nav a:hover {
 }
 
 section {
-    padding: 40px;
-    max-width: 900px;
+    padding: 60px 40px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -89,4 +89,5 @@ section {
 .cv-button:hover {
     background: #162d63;
 }
+
 
