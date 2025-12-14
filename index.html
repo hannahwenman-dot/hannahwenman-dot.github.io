@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hannah Wenman | Engineering Portfolio</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -28,14 +31,26 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Hi, I’m Hannah Wenman</h1>
-        <p>I’m an Engineering Apprentice at Technicut with hands-on experience in mechanical maintenance, fault-finding, and electronics. Passionate about solving real-world engineering problems.</p>
-        <a class="cv-button" href="assets/Hannah-Wenman-CV.pdf" download>Download CV</a>
+        <div data-aos="fade-up" data-aos-delay="100">
+            <h1>Hi, I’m Hannah Wenman</h1>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="200">
+            <p>I’m an Engineering Apprentice at Technicut with hands-on experience in mechanical maintenance, fault-finding, and electronics. Passionate about solving real-world engineering problems.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="300">
+            <a class="cv-button" href="assets/Hannah-Wenman-CV.pdf" download>Download CV</a>
+        </div>
     </section>
 
+    <!-- Scripts -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 800, once: true });
+    </script>
 </body>
 </html>
+
 
 
 
