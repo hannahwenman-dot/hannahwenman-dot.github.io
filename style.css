@@ -184,6 +184,16 @@ form button {
 form button:hover {
     background: #162d63;
 }
+body {
+    transition: background 0.3s, color 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+button:hover {
+    opacity: 0.9;
+}
 
 
 
