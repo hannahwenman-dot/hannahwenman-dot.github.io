@@ -111,6 +111,51 @@ section {
 .dark .project-card {
     background: #020617;
 }
+/* Mobile nav */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #theme-toggle {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    section {
+        padding: 40px 20px;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr; /* single column */
+    }
+}
+@media (max-width: 768px) {
+    .cv-button {
+        width: 100%;
+        text-align: center;
+        padding: 14px 0;
+        font-size: 1rem;
+    }
+}
 
 
 
